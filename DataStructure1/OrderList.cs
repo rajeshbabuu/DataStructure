@@ -16,7 +16,7 @@ namespace DataStructure1
 
             string[] words = text.Split(' ');
 
-            Array.Sort(words);
+           // Array.Sort(words);
 
             for (int i = 0; i < words.Length; i++)
             {
@@ -65,7 +65,7 @@ namespace DataStructure1
             }
             string concat = string.Concat(array);
             Console.WriteLine(concat);
-            File.WriteAllText(@"D:\RFP-244\DataStructure1\DataStructure\DataStructure1\OrderList.cs", concat);
+            File.WriteAllText(@"D:\RFP-244\DataStructure1\DataStructure\DataStructure1\UnOrder.txt", concat);
         }
     }
     }
